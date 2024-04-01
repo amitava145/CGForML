@@ -1,0 +1,233 @@
+	<ml-chargen>
+		<video-props colorspace='ARGB32' interlace='progressive' extra-buffer='1'/>
+		<video-output background='Black(0)' top-video='no'>
+			<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+			<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+		</video-output>
+		<cg-items/>
+		<cg-schedule>
+			<timeline-file/>
+			<timeline name='mytesttimeline-graphics-topleftbox'>
+				<task start-time='3.86' show-id='comp-graphics-topleftbox' show='yes' show-time='7.14'>
+					<param/>
+				</task>
+				<task relative-time='0.000 (3.860)' show-id='graphics-topleftbox' show='yes' show-time='7.14'>
+					<param cg-props::indent::top='60'/>
+				</task>
+				<task relative-time='0.100 (3.960)' show-id='graphics-topleftbox' show='yes' intro-time='1.5' show-time='7.14' exit-time='1.5'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='5.040 (9.000)' show-id='graphics-topleftbox' show='yes' show-time='7.14'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='0.500 (9.500)' show-id='graphics-topleftbox' show='yes' intro-time='1.5' show-time='7.14' exit-time='1.5'>
+					<param cg-props::indent::top='60'/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-graphics-box1'>
+				<task start-time='0.0' show-id='comp-graphics-box1' show='yes' intro-time='1.5' show-time='9.41' exit-time='1.5'>
+					<param/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-graphics-box1-border'>
+				<task start-time='0.0' show-id='comp-graphics-box1-border' show='yes' intro-time='1.5' show-time='9.41' exit-time='1.5'>
+					<param/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-graphics-redmiddlebox'>
+				<task start-time='1.44' show-id='comp-graphics-redmiddlebox' show='yes' show-time='9.56'>
+					<param/>
+				</task>
+				<task relative-time='0.000 (1.440)' show-id='graphics-redmiddlebox' show='yes' show-time='9.56'>
+					<param cg-props::indent::bottom='43'/>
+				</task>
+				<task relative-time='0.100 (1.540)' show-id='graphics-redmiddlebox' show='yes' intro-time='1.5' show-time='9.56' exit-time='1.5'>
+					<param cg-props::indent::bottom='0'/>
+				</task>
+				<task relative-time='7.460 (9.000)' show-id='graphics-redmiddlebox' show='yes' show-time='9.56'>
+					<param cg-props::indent::bottom='0'/>
+				</task>
+				<task relative-time='0.500 (9.500)' show-id='graphics-redmiddlebox' show='yes' intro-time='1.5' show-time='9.56' exit-time='1.5'>
+					<param cg-props::indent::bottom='43'/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-text-textofbox1'>
+				<task start-time='0.0' show-id='comp-text-textofbox1' show='yes' intro-time='1.5' show-time='9.41' exit-time='1.5'>
+					<param/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-text-graphics-redmiddlebox'>
+				<task start-time='1.46' show-id='comp-text-graphics-redmiddlebox' show='yes' show-time='9.54'>
+					<param/>
+				</task>
+				<task relative-time='0.000 (1.460)' show-id='text-graphics-redmiddlebox' show='yes' show-time='9.54'>
+					<param cg-props::indent::top='-126.0'/>
+				</task>
+				<task relative-time='0.100 (1.560)' show-id='text-graphics-redmiddlebox' show='yes' intro-time='1.5' show-time='9.54' exit-time='1.5'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='7.440 (9.000)' show-id='text-graphics-redmiddlebox' show='yes' show-time='9.54'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='0.500 (9.500)' show-id='text-graphics-redmiddlebox' show='yes' intro-time='1.5' show-time='9.54' exit-time='1.5'>
+					<param cg-props::indent::top='-126.0'/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-text-textofleftropbox'>
+				<task start-time='3.86' show-id='comp-text-textofleftropbox' show='yes' show-time='7.14'>
+					<param/>
+				</task>
+				<task relative-time='0.000 (3.860)' show-id='text-textofleftropbox' show='yes' show-time='7.14'>
+					<param cg-props::indent::top='56'/>
+				</task>
+				<task relative-time='0.100 (3.960)' show-id='text-textofleftropbox' show='yes' intro-time='1.5' show-time='7.14' exit-time='1.5'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='5.040 (9.000)' show-id='text-textofleftropbox' show='yes' show-time='7.14'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='0.500 (9.500)' show-id='text-textofleftropbox' show='yes' intro-time='1.5' show-time='7.14' exit-time='1.5'>
+					<param cg-props::indent::top='56'/>
+				</task>
+			</timeline>
+			<timeline name='mytesttimeline-text-tex2tofleftropbox'>
+				<task start-time='3.86' show-id='comp-text-tex2tofleftropbox' show='yes' show-time='7.14'>
+					<param/>
+				</task>
+				<task relative-time='0.000 (3.860)' show-id='text-tex2tofleftropbox' show='yes' show-time='7.14'>
+					<param cg-props::indent::top='29'/>
+				</task>
+				<task relative-time='0.100 (3.960)' show-id='text-tex2tofleftropbox' show='yes' intro-time='1.5' show-time='7.14' exit-time='1.5'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='5.040 (9.000)' show-id='text-tex2tofleftropbox' show='yes' show-time='7.14'>
+					<param cg-props::indent::top='0'/>
+				</task>
+				<task relative-time='0.500 (9.500)' show-id='text-tex2tofleftropbox' show='yes' intro-time='1.5' show-time='7.14' exit-time='1.5'>
+					<param cg-props::indent::top='29'/>
+				</task>
+			</timeline>
+		</cg-schedule>
+		<cg-compositions>
+			<cg-composition name='comp-graphics-topleftbox' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='graphics-topleftbox' on-show='' on-hide='' pos-x='0.052' pos-y='0.805' size-x='0.395' size-y='0.056'>
+						<graphics type='rect' round-corners='0' outline='0' color='#FAFFFA(228)' outline-color='white'/>
+						<cg-props pos-x='100' pos-y='869' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' scale='fit-ar' align='top-left' width='758' height='60' pause='no' edges-smooth='0'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-graphics-box1' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='graphics-box1' on-show='bottom' on-hide='bottom' pos-x='0.052' pos-y='0.852' size-x='0.895' size-y='0.142'>
+						<graphics type='rect' round-corners='0' outline='0' color='#D4E1E9(234)/#FFFFFF(255)' outline-color='white' color-angle='0'/>
+						<cg-props pos-x='100' pos-y='920' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' scale='fit-ar' align='top-left' width='1718' height='153' pause='no' edges-smooth='0'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-graphics-box1-border' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='graphics-box1-border' on-show='bottom' on-hide='bottom' pos-x='0.053' pos-y='0.855' size-x='0.893' size-y='0.009'>
+						<graphics type='rect' round-corners='0' outline='0' color='#D20000(255)' outline-color='white'/>
+						<cg-props pos-x='102' pos-y='923' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' scale='fit-ar' align='top-left' width='1715' height='10' pause='no' edges-smooth='0'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-graphics-redmiddlebox' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='graphics-redmiddlebox' pos-x='0.432' pos-y='0.861' size-x='0.133' size-y='0.04'>
+						<graphics type='rect' round-corners='0' outline='0' color='#D20000(255)' outline-color='white'/>
+						<cg-props pos-x='829' pos-y='930' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' scale='fit-ar' align='top-left' width='255' height='43' pause='no' edges-smooth='0'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-text-textofbox1' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='text-textofbox1' on-show='bottom' on-hide='bottom' pos-x='0.098' pos-y='0.91' size-x='0.813' size-y='0.074'>
+						<text type='text' font='Arial' font-size='48' color='#000000(255)' word-break='no'>CIAO CIAO CIAO &lt;&lt;CIAO CIAO&gt;&gt;</text>
+						<cg-props scale='no-scale' align='top-left' edges-smooth='3' pos-x='188' pos-y='983' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' width='1561' height='80' pause='no'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-text-graphics-redmiddlebox' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='text-graphics-redmiddlebox' pos-x='0.458' pos-y='0.863' size-x='0.09' size-y='0.044'>
+						<text type='text' font='Arial' font-size='26' color='White' word-break='no'>SANITA`</text>
+						<cg-props scale='no-scale' align='top-left' edges-smooth='3' pos-x='879' pos-y='932' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' width='173' height='48' pause='no'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-text-textofleftropbox' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='text-textofleftropbox' on-show='' on-hide='' pos-x='0.054' pos-y='0.813' size-x='0.217' size-y='0.052'>
+						<text type='text' font='Arial' font-size='26' color='#000000(255)' word-break='no'>ROBERTO OCCHIUTO </text>
+						<cg-props scale='no-scale' align='top-left' edges-smooth='3' pos-x='104' pos-y='878' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' width='417' height='56' pause='no'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+			<cg-composition name='comp-text-tex2tofleftropbox' comment=''>
+				<video-output background='Black(0)' top-video='no'>
+					<input-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+					<output-rect left='0.000%' right='0.000%' top='0.000%' bottom='0.000%'/>
+				</video-output>
+				<cg-items>
+					<cg-item id='text-tex2tofleftropbox' pos-x='0.256' pos-y='0.823' size-x='0.193' size-y='0.027'>
+						<text type='text' font='Arial' font-size='18' color='#000000(255)' word-break='no'>PRESIDENTE DELLA CAMERA</text>
+						<cg-props scale='no-scale' align='top-left' edges-smooth='3' pos-x='492' pos-y='889' show='yes' move-type='accel-both' alpha='255' bg-color='Black(0)' pixel-ar='0.0' play-mode='loop' interlace='auto' width='371' height='29' pause='no'>
+							<indent left='0' right='0' top='0' bottom='0' use-for-bg='no'/>
+							<group-indent left='0' right='0' top='0' bottom='0'/>
+						</cg-props>
+					</cg-item>
+				</cg-items>
+			</cg-composition>
+		</cg-compositions>
+	</ml-chargen>
